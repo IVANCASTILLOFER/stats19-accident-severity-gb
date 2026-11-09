@@ -1,0 +1,26 @@
+# Entorno probado: Python 3.12.10 (Windows 11). Versiones exactas usadas en el proyecto.
+pandas==3.0.6
+numpy==2.5.3
+pyarrow==25.0.1
+scikit-learn==1.9.1
+scipy==1.18.1
+lightgbm==4.7.0
+shap==0.52.0
+optuna==5.0.0
+matplotlib==3.11.2
+seaborn==0.13.2
+folium==0.20.0
+branca==0.8.2
+streamlit==1.65.0
+streamlit-folium==0.27.4
+joblib==1.6.0
+# Informe en Word
+python-docx==1.2.0
+# Notebooks y descarga de datos
+jupyter==1.1.1
+jupytext==1.19.6
+ipykernel==7.4.0
+nbconvert==7.17.1
+kaggle==2.2.4
+# xgboost==3.4.1   # instalado pero no usado por ningún modelo del proyecto
+
