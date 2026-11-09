@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Raw and processed data (about 3.4 GB; downloaded from the DfT, see README)
+data/
+
+# Spanish working notes and the academic report (not part of the public repo)
+docs/
+informe/
+
+# Superseded models and large intermediate arrays (the app uses only the three kept in models/)
+models/modelo_final.joblib
+models/modelo_mejorado.joblib
+models/proba_test*.npy
+
+# Run logs
+reports/*_err.txt
+reports/*_log.txt
+
+# Secrets and local configuration (never commit)
+.env
+*.pem
+*.key
+kaggle.json
+access_token
+
+# Editor / system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
